@@ -7,7 +7,7 @@ import plotly.graph_objects as go
 from collections import Counter
 
 st.set_page_config(
-    page_title="IT Job Market — EDA Dashboard",
+    page_title="IT Job Market: EDA Dashboard",
     layout="wide",
     initial_sidebar_state="collapsed"
 )
@@ -273,7 +273,7 @@ st.markdown("""
 <div class="section-header">
     <span class="bq-tag">BQ 1</span>
     <div>
-        <h2>Skill teknis apa yang paling banyak diminta di industri IT secara global?</h2>
+        <h2>Apa 30 skill yang paling banyak diminta berdasarkan dataset lowongan IT LinkedIn yang dikumpulkan?</h2>
         <p>Objektif : mengidentifikasi skill dengan kemunculan tertinggi di seluruh 3.994 lowongan LinkedIn.</p>
     </div>
 </div>
@@ -331,7 +331,7 @@ st.markdown("""
 <div class="section-header">
     <span class="bq-tag">BQ 2</span>
     <div>
-        <h2>Kategori pekerjaan mana yang paling remote-friendly dan mana yang dominan on-site?</h2>
+        <h2>Bagaimana persentase distribusi work type (Remote, Hybrid, On-site) pada 20 kategori jabatan IT dengan volume lowongan tertinggi berdasarkan dataset yang dikumpulkan?</h2>
         <p>Objektif : memetakan distribusi Remote, Hybrid, dan On-site untuk setiap kategori pekerjaan IT.
     </div>
 </div>
@@ -454,7 +454,7 @@ st.markdown("""
 <div class="section-header">
     <span class="bq-tag">BQ 3</span>
     <div>
-        <h2>Kategori pekerjaan mana yang menuntut jumlah skill paling banyak dari pelamar?</h2>
+        <h2>Kategori jabatan IT mana yang memiliki rata-rata jumlah skill tertinggi per lowongan berdasarkan dataset yang dikumpulkan?</h2>
         <p>Objektif : Mengukur rata-rata jumlah skill yang dicantumkan per lowongan untuk setiap kategori pekerjaan.</p>
     </div>
 </div>
@@ -555,7 +555,7 @@ st.markdown("""
 <div class="section-header">
     <span class="bq-tag">BQ 4</span>
     <div>
-        <h2>Skill apa yang paling membedakan satu kategori pekerjaan dari yang lain?</h2>
+        <h2>Skill apa yang memiliki distinctiveness ratio tertinggi pada masing-masing kategori jabatan IT berdasarkan dataset yang dikumpulkan?</h2>
         <p>Objektif : Mengukur distinctiveness ratio: seberapa khas sebuah skill untuk kategori tertentu dibanding rata-rata global.</p>
     </div>
 </div>
@@ -648,7 +648,7 @@ st.markdown("""
 <div class="section-header">
     <span class="bq-tag">BQ 5</span>
     <div>
-        <h2>Apakah lowongan remote menuntut lebih banyak skill dibanding on-site?</h2>
+        <h2>Apakah rata-rata jumlah skill lowongan Remote secara statistik lebih tinggi dibanding On-site berdasarkan dataset yang dikumpulkan?</h2>
         <p>Objektif : Membandingkan jumlah skill yang diminta berdasarkan tipe kerja untuk melihat apakah
         ada "skill premium" pada posisi remote.</p>
     </div>
@@ -770,7 +770,7 @@ st.markdown("""
 <div class="section-header">
     <span class="bq-tag">BQ 6</span>
     <div>
-        <h2>Skill mana yang paling sering dicari bersama dalam satu lowongan?</h2>
+        <h2>Apa 20 pasangan skill dengan nilai co-occurrence tertinggi berdasarkan dataset lowongan IT LinkedIn yang dikumpulkan?</h2>
         <p>Objektif : Analisis co-occurrence untuk memahami "paket skill" yang umum dibutuhkan industri.</p>
     </div>
 </div>
