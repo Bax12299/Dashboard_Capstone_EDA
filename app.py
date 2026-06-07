@@ -331,7 +331,7 @@ st.markdown("""
 <div class="section-header">
     <span class="bq-tag">BQ 2</span>
     <div>
-        <h2>Bagaimana persentase distribusi work type (Remote, Hybrid, On-site) pada 20 kategori jabatan IT dengan volume lowongan tertinggi berdasarkan dataset yang dikumpulkan?</h2>
+        <h2>Bagaimana persentase distribusi work type (Remote, Hybrid, On-site) pada 20 kategori pekerjaan IT dengan volume lowongan tertinggi berdasarkan dataset yang dikumpulkan?</h2>
         <p>Objektif : memetakan distribusi Remote, Hybrid, dan On-site untuk setiap kategori pekerjaan IT.
     </div>
 </div>
@@ -454,7 +454,7 @@ st.markdown("""
 <div class="section-header">
     <span class="bq-tag">BQ 3</span>
     <div>
-        <h2>Kategori jabatan IT mana yang memiliki rata-rata jumlah skill tertinggi per lowongan berdasarkan dataset yang dikumpulkan?</h2>
+        <h2>Kategori pekerjaan IT mana yang memiliki rata-rata jumlah skill tertinggi per lowongan berdasarkan dataset yang dikumpulkan?</h2>
         <p>Objektif : Mengukur rata-rata jumlah skill yang dicantumkan per lowongan untuk setiap kategori pekerjaan.</p>
     </div>
 </div>
@@ -555,7 +555,7 @@ st.markdown("""
 <div class="section-header">
     <span class="bq-tag">BQ 4</span>
     <div>
-        <h2>Skill apa yang memiliki distinctiveness ratio tertinggi pada masing-masing kategori jabatan IT berdasarkan dataset yang dikumpulkan?</h2>
+        <h2>Skill apa yang memiliki distinctiveness ratio tertinggi pada masing-masing kategori pekerjaan IT berdasarkan dataset yang dikumpulkan?</h2>
         <p>Objektif : Mengukur distinctiveness ratio: seberapa khas sebuah skill untuk kategori tertentu dibanding rata-rata global.</p>
     </div>
 </div>
