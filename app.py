@@ -212,7 +212,7 @@ def apply_base_axes(fig):
     return fig
 
 
-# Page header 
+# Page header    
 st.markdown("""
 <div class="page-header">
     <h1>IT Job Market: Exploratory Analysis</h1>
